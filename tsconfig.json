@@ -1,0 +1,34 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "inlineSources": true,
+        "jsx": "react",
+        "lib": ["dom", "es6", "dom.iterable", "scripthost", "esnext.intl", "es2018.intl", "es2017.intl"],
+        "module": "es2015",
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "removeComments": false,
+        "rootDir": ".",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "strict": true,
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.*"
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}
